@@ -5,13 +5,13 @@ function svgClick(url){
 function svgMouseOver(){
 	var all = this.getElementsByTagName("path");
 	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill='RED'}
+		all[i].style.fill='RED'
 	}
 }
 function svgMouseOut(){
 	var all = this.getElementsByTagName("path");
 	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill='black'}
+		all[i].style.fill='black'
 	}
 }
 
