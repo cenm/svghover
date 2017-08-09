@@ -1,5 +1,6 @@
+var urlroot = "http://www.chengda-plaza.com/nckubd/shops.action?id=";
 function svgClick(url){
-	window.open(url,'_blank');
+	window.open(urlroot+url,'_blank');
 }
 
 function svgMouseOver(obj,color){
