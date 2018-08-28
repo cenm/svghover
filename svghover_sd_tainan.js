@@ -5,7 +5,7 @@ function svgClick(url){
 
 function svgMouseOver(obj,color){
 	obj.style.cursor='pointer';
-	obj.style.margin="-10px 0px 10px 0px";
+	obj.style.boxShadow = "10px 20px 30px blue";
 }
 function svgMouseOut(obj,color){
 	
