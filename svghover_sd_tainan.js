@@ -4,7 +4,7 @@ function svgClick(url){
 }
 
 function svgMouseOver(obj,color){
-	//obj.style.cursor='pointer';
+	obj.style.cursor='pointer';
 	//obj.style.filter = "grayscale(100%)";
 }
 function svgMouseOut(obj,color){
