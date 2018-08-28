@@ -4,24 +4,10 @@ function svgClick(url){
 }
 
 function svgMouseOver(obj,color){
-	var all = obj.getElementsByTagName("path");
-	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill=color;
-	}
-	var all = obj.getElementsByTagName("text");
-	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill=color;
-	}
 	obj.style.cursor='pointer';
+	obj.style.margin="-10px 0px 10px 0px";
 }
 function svgMouseOut(obj,color){
-	var all = obj.getElementsByTagName("path");
-	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill=color;
-	}
-	var all = obj.getElementsByTagName("text");
-	for (var i=0, max=all.length; i < max; i++) {
-		all[i].style.fill=color;
-	}
+	
 }
 
