@@ -1,4 +1,4 @@
-var urlroot = "./sd_index?sd=";
+var urlroot = "/sd_tainan/sd_index?sd=";
 function svgClick(url){
 	window.open(urlroot+url,'_blank');
 }
