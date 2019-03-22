@@ -1,4 +1,4 @@
-var urlroot = "http://60.248.247.190/sd_tainan/sd_index?sd=";
+var urlroot = "http://shoppingfun.tainan.gov.tw/sd_index?sd=";
 var url2;
 function svgClick(url){
 	switch(url) {
